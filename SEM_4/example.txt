@@ -1,0 +1,15 @@
+site.ru
+me <-----> server (nginx) <-----> index.html
+   \-----/                 \-----> js, css
+
+   site.ru
+me <-----> server (nginx) <-----> php (собирает html) <-----> db
+   \-----/                 \-----> js, css
+
+   site.ru
+me <-----> server (nginx) <-----> index.html
+   \-----/                 \-----> js, css
+   \-----/                 \-----> php <-----> db
+   
+php используется только на сервере,
+js, css работает на нашем компьютере.
