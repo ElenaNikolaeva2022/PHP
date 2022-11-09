@@ -1,4 +1,3 @@
-/*
 -- create
 CREATE TABLE groupmates (
   id INTEGER PRIMARY KEY,
@@ -16,4 +15,3 @@ INSERT INTO groupmates VALUES (0005, 'Tanya', 37, 'Moscow');
 
 -- fetch 
 SELECT * FROM groupmates WHERE city = 'Moscow' AND age >= 18 AND age <= 30;
-*/
